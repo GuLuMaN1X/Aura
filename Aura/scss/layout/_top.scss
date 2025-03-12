@@ -1,0 +1,218 @@
+.top{
+    padding-top: 90px;
+    padding-bottom: 57px;
+    background-color: $clr-primary-black;
+    .top_container{
+        .top_list{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 32px;
+            flex-wrap: wrap;
+            .top_product{
+                display: flex;
+                align-items: center;
+                border-radius: 40px;
+                background-color: $clr-primary-white;
+                .top-product_info{
+                    .product-price{
+                        font-weight: 700;
+                        font-size: $font-size-l;
+                        line-height: 100%;
+                        color: $clr-primary-black;
+                        .product_price{
+                            color: $clr-grey-middle;
+                        }
+                    }
+                    .top-product_title{
+                        margin-bottom: 9px;
+                        font-family: $family-primary;
+                        font-size: $font-size-x;
+                        font-weight: 700;
+                        line-height: 100%;
+                    }
+                    .auction-owner{
+                        margin-bottom: 9px;
+                        .auction-nickname{
+                            font-family: $family-primary;
+                            font-weight: 700;
+                            font-size: $font-size-ss;
+                            line-height: 100%;
+                        }
+                        .auction-avatar{
+                            margin-right: 7px;
+                        }
+                        display: inline-flex;
+                        align-items: center;
+                    }
+                }
+                .top-product_image{
+                    margin-right: 32px;
+                    border-radius: 40px 0px 0px 40px;
+                    padding: 16px;
+                    padding-bottom: 10px;
+                    padding-right: 0px;
+                    background: $clr-grey-light;
+                }
+            }
+            .top_item{
+                margin-bottom: 32px;
+                width: 624px;
+            }
+        }
+        .top_title{
+            margin-bottom: 32px;
+            color: $clr-primary-white;
+            font-family: $family-title;
+            font-size: $font-size-xx;
+            line-height: 100%;
+            vertical-align: middle;
+        }
+    }
+}
+@media (max-width:968px) and (min-width:768px) {
+    .top{
+        padding-top: 90px;
+        padding-bottom: 57px;
+        background-color: $clr-primary-black;
+        .top_container{
+            .top_list{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 32px;
+                flex-wrap: wrap;
+                .top_product{
+                    display: flex;
+                    align-items: center;
+                    border-radius: 40px;
+                    background-color: $clr-primary-white;
+                    .top-product_info{
+                        .product-price{
+                            font-weight: 700;
+                            font-size: $font-size-l;
+                            line-height: 100%;
+                            color: $clr-primary-black;
+                            .product_price{
+                                color: $clr-grey-middle;
+                            }
+                        }
+                        .top-product_title{
+                            margin-bottom: 9px;
+                            font-family: $family-primary;
+                            font-size: $font-size-ll;
+                            font-weight: 700;
+                            line-height: 100%;
+                        }
+                        .auction-owner{
+                            margin-bottom: 9px;
+                            .auction-nickname{
+                                font-family: $family-primary;
+                                font-weight: 700;
+                                font-size: $font-size-ss;
+                                line-height: 100%;
+                            }
+                            .auction-avatar{
+                                margin-right: 7px;
+                            }
+                            display: inline-flex;
+                            align-items: center;
+                        }
+                    }
+                    .top-product_image{
+                        margin-right: 32px;
+                        border-radius: 40px 0px 0px 40px;
+                        padding: 16px;
+                        padding-bottom: 10px;
+                        padding-right: 0px;
+                        background: $clr-grey-light;
+                    }
+                }
+                .top_item{
+                    margin-bottom: 32px;
+                    width: 624px;
+                }
+            }
+            .top_title{
+                margin-bottom: 32px;
+                color: $clr-primary-white;
+                font-family: $family-title;
+                font-size: $font-size-xx;
+                line-height: 100%;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .top{
+        padding-top: 90px;
+        padding-bottom: 57px;
+        background-color: $clr-primary-black;
+        .top_container{
+            .top_list{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                height: 100%;
+                gap: 32px;
+                flex-wrap: wrap;
+                .top_product{
+                    display: flex;
+                    align-items: center;
+                    border-radius: 40px;
+                    background-color: $clr-primary-white;
+                    .top-product_info{
+                        .product-price{
+                            font-weight: 700;
+                            font-size: $font-size-l;
+                            line-height: 100%;
+                            color: $clr-primary-black;
+                            .product_price{
+                                color: $clr-grey-middle;
+                            }
+                        }
+                        .top-product_title{
+                            margin-bottom: 9px;
+                            font-family: $family-primary;
+                            font-size: $font-size-ll;
+                            font-weight: 700;
+                            line-height: 100%;
+                        }
+                        .auction-owner{
+                            margin-bottom: 9px;
+                            .auction-nickname{
+                                font-family: $family-primary;
+                                font-weight: 700;
+                                font-size: $font-size-ss;
+                                line-height: 100%;
+                            }
+                            .auction-avatar{
+                                margin-right: 7px;
+                            }
+                            display: inline-flex;
+                            align-items: center;
+                        }
+                    }
+                    .top-product_image{
+                        margin-right: 32px;
+                        border-radius: 40px 0px 0px 40px;
+                        padding: 16px;
+                        padding-bottom: 10px;
+                        padding-right: 0px;
+                        background: $clr-grey-light;
+                    }
+                }
+                .top_item{
+                    margin-bottom: 32px;
+                    width: 624px;
+                }
+            }
+            .top_title{
+                margin-bottom: 32px;
+                color: $clr-primary-white;
+                font-family: $family-title;
+                font-size: $font-size-ll;
+                line-height: 100%;
+                vertical-align: middle;
+            }
+        }
+    }
+}   

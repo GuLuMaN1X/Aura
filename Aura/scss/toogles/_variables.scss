@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Muller';
+    src: url('/Aura/font/ofont.ru_Muller.ttf');
+}
+
+$clr-primary-black: #000000;
+$clr-primary-white: #FFFFFF;
+$clr-primary-green: linear-gradient(to bottom, rgba(70, 244, 219, 1) 0%, rgba(87, 210, 114, 1) 100%);
+$clr-primary-heaven: #46F4DB;
+$clr-primary-active: #57D272;
+$clr-primary-red: #D13130;
+$clr-grey-light: #EDEDF2;
+$clr-grey-middle: #95959D;
+$clr-grey-dark: #717178;
+
+
+$font-size-s: 1.2rem;
+$font-size-ss: 1.6rem;
+$font-size-m: 1.8rem;
+$font-size-l: 2.0rem;
+$font-size-ll: 3.0rem;
+$font-size-lll: 3.5rem;
+$font-size-x: 4.8rem;
+$font-size-xx: 6.0rem;
+$font-size-xl: 7.0rem;
+
+$margin-xxsmall: 1rem;
+$margin-xsmall: 2rem;
+$margin-small: 3rem;
+$margin-regular: 4rem;
+$margin-medium: 5rem;
+$margin-xmedium: 6rem;
+$margin-xxmedium: 7rem;
+$margin-large: 10rem;
+
+$padding-xxsmall: 1rem;
+$padding-xsmall: 2rem;
+$padding-small: 3rem;
+$padding-regular: 4rem;
+$padding-medium: 5rem;
+$padding-xmedium: 6rem;
+$padding-xxmedium: 7rem;
+$padding-large: 10rem;
+
+$transition-fast: 0.3s ease-in-out;
+$transition-medium: 0.5s ease-in-out;
+$transition-long: 0.8s ease-in-out;
+
+$family-title: "Russo One", sans-serif;
+$family-primary: "Muller", sans-serif;
+
+$container-width: 1280px;
+
+//html
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $family-primary;
+}
+
+//none
+.none {
+    display: none;
+}
+
+.container {
+    max-width: $container-width;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) and (min-width:768px) {
+    .container {
+        max-width: 952px;
+    }
+}
+@media (max-width: 768px) and (min-width:576px) {
+    .container {
+        max-width: 695px;
+    }
+}
+@media (max-width: 576px) and (min-width:320px) {
+    .container {
+        max-width: 551px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 296px;
+    }
+}
+
+//

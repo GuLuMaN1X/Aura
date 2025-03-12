@@ -1,0 +1,326 @@
+.auction {
+    padding: 90px 0px 90px 0px;
+
+    .auction_container {
+        .auction-title {
+            margin-bottom: 32px;
+            font-family: $family-title;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24.1px;
+
+        }
+        .btn__center{
+            display: flex;
+            justify-content: center;
+            .btn-center {
+                text-align: center;
+                margin-top: 32px;
+                padding: 25px 54px;
+                border: 5px solid $clr-primary-heaven;
+                width: 100%;
+                max-width: 296px;
+                border-radius: 40px;
+                font-family: $family-primary;
+                font-weight: 400;
+                font-size: $font-size-l;
+                line-height: $font-size-l;
+                cursor: pointer;
+                transition: background-color $transition-fast;
+    
+                &:hover {
+                    background: $clr-primary-heaven;
+                }
+            }
+        }
+
+        .auction_list {
+            padding: 0px 0px 0px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .auction-item {
+                background-color: $clr-grey-light;
+                width: 100%;
+                max-width: 21.5%;
+                border-radius: 40px;
+                margin-bottom: 32px;
+
+                .auction-product_info {
+                    padding: 16px 0px 32px 16px;
+                    background: $clr-primary-black;
+                    color: $clr-primary-white;
+                    border-radius: 0px 0px 40px 40px;
+
+                    .auction-product_timer {
+                        font-family: $family-primary;
+                        font-weight: 400;
+                        font-size: $font-size-ss;
+                        line-height: $font-size-ss;
+                        color: $clr-grey-middle;
+                    }
+
+                    .auction-product_price {
+                        font-family: $family-primary;
+                        font-weight: 700;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        color: $clr-primary-heaven;
+                        margin-bottom: 11px;
+
+                    }
+
+                    .auction-product_title {
+                        font-family: $family-primary;
+                        font-weight: 700;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        margin-bottom: 13px;
+                    }
+
+                    .auction-owner {
+                        display: inline-flex;
+                        align-items: center;
+                        margin-bottom: 17px;
+
+                        .auction-owner_avatar {
+                            margin-right: 5px;
+                        }
+
+                        .auction-owner_nickname {
+                            font-family: $family-primary;
+                            font-weight: 400;
+                            font-size: $font-size-s;
+                            line-height: $font-size-s;
+                        }
+                    }
+                }
+
+                .auction-product_image {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1070px) and (min-width:575px) {
+    .auction {
+        padding: 90px 0px 90px 0px;
+
+        .auction_container {
+            .auction-title {
+                margin-bottom: 32px;
+                font-family: $family-title;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24.1px;
+
+            }
+
+            .btn__center{
+                display: flex;
+                justify-content: center;
+                .btn-center {
+                    text-align: center;
+                    margin-top: 32px;
+                    padding: 25px 54px;
+                    border: 5px solid $clr-primary-heaven;
+                    width: 100%;
+                    max-width: 296px;
+                    border-radius: 40px;
+                    font-family: $family-primary;
+                    font-weight: 400;
+                    font-size: $font-size-l;
+                    line-height: $font-size-l;
+                    cursor: pointer;
+                    transition: background-color $transition-fast;
+        
+                    &:hover {
+                        background: $clr-primary-heaven;
+                    }
+                }
+            }
+
+            .auction_list {
+                padding: 0px 0px 0px 0px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .auction-item {
+                    background-color: $clr-grey-light;
+                    width: 100%;
+                    max-width: 40%;
+                    border-radius: 40px;
+                    margin-bottom: 32px;
+
+                    .auction-product_info {
+                        padding: 16px 0px 32px 16px;
+                        background: $clr-primary-black;
+                        color: $clr-primary-white;
+                        border-radius: 0px 0px 40px 40px;
+
+                        .auction-product_timer {
+                            font-family: $family-primary;
+                            font-weight: 400;
+                            font-size: $font-size-ss;
+                            line-height: $font-size-ss;
+                            color: $clr-grey-middle;
+                        }
+
+                        .auction-product_price {
+                            font-family: $family-primary;
+                            font-weight: 700;
+                            font-size: $font-size-l;
+                            line-height: $font-size-l;
+                            color: $clr-primary-heaven;
+                            margin-bottom: 11px;
+
+                        }
+
+                        .auction-product_title {
+                            font-family: $family-primary;
+                            font-weight: 700;
+                            font-size: $font-size-l;
+                            line-height: $font-size-l;
+                            margin-bottom: 13px;
+                        }
+
+                        .auction-owner {
+                            display: inline-flex;
+                            align-items: center;
+                            margin-bottom: 17px;
+
+                            .auction-owner_avatar {
+                                margin-right: 5px;
+                            }
+
+                            .auction-owner_nickname {
+                                font-family: $family-primary;
+                                font-weight: 400;
+                                font-size: $font-size-s;
+                                line-height: $font-size-s;
+                            }
+                        }
+                    }
+
+                    .auction-product_image {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:575px) and (min-width:200px) {
+    .auction {
+        padding: 90px 0px 90px 0px;
+
+        .auction_container {
+            .auction-title {
+                margin-bottom: 32px;
+                font-family: $family-title;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24.1px;
+
+            }
+
+            .btn__center{
+                display: flex;
+                justify-content: center;
+                .btn-center {
+                    text-align: center;
+                    margin-top: 32px;
+                    padding: 25px 54px;
+                    border: 5px solid $clr-primary-heaven;
+                    width: 100%;
+                    max-width: 296px;
+                    border-radius: 40px;
+                    font-family: $family-primary;
+                    font-weight: 400;
+                    font-size: $font-size-l;
+                    line-height: $font-size-l;
+                    cursor: pointer;
+                    transition: background-color $transition-fast;
+        
+                    &:hover {
+                        background: $clr-primary-heaven;
+                    }
+                }
+            }
+
+            .auction_list {
+                padding: 0px 0px 0px 0px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .auction-item {
+                    background-color: $clr-grey-light;
+                    width: 100%;
+                    max-width: 70%;
+                    border-radius: 40px;
+                    margin-bottom: 32px;
+
+                    .auction-product_info {
+                        padding: 16px 0px 32px 16px;
+                        background: $clr-primary-black;
+                        color: $clr-primary-white;
+                        border-radius: 0px 0px 40px 40px;
+
+                        .auction-product_timer {
+                            font-family: $family-primary;
+                            font-weight: 400;
+                            font-size: $font-size-ss;
+                            line-height: $font-size-ss;
+                            color: $clr-grey-middle;
+                        }
+
+                        .auction-product_price {
+                            font-family: $family-primary;
+                            font-weight: 700;
+                            font-size: $font-size-l;
+                            line-height: $font-size-l;
+                            color: $clr-primary-heaven;
+                            margin-bottom: 11px;
+
+                        }
+
+                        .auction-product_title {
+                            font-family: $family-primary;
+                            font-weight: 700;
+                            font-size: $font-size-l;
+                            line-height: $font-size-l;
+                            margin-bottom: 13px;
+                        }
+
+                        .auction-owner {
+                            display: inline-flex;
+                            align-items: center;
+                            margin-bottom: 17px;
+
+                            .auction-owner_avatar {
+                                margin-right: 5px;
+                            }
+
+                            .auction-owner_nickname {
+                                font-family: $family-primary;
+                                font-weight: 400;
+                                font-size: $font-size-s;
+                                line-height: $font-size-s;
+                            }
+                        }
+                    }
+
+                    .auction-product_image {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

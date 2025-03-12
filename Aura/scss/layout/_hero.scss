@@ -1,0 +1,392 @@
+.hero {
+    height: 680px;
+    width: 100%;
+    max-width: 1920px;
+    background-image: url('/Aura/img/stickers_hero\ \(2\).png');
+    background-color: $clr-primary-black;
+    background-size: 55.5% 100%;
+    z-index: 1;
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    .hero_container {
+        @include flex-row-center;
+
+        .hero_text {
+            max-width: 621px;
+            margin-top: 160px;
+            margin-left: 0px;
+
+            .hero_buttons {
+                margin-top: 56px;
+
+                .second-btn {
+                    margin-left: 32px;
+                    padding: 25px 54px;
+                    border-radius: 40px;
+                    background: $clr-primary-black;
+                    color: $clr-primary-white;
+                    text-align: center;
+                    font-weight: 400;
+                    border: 5px solid $clr-primary-active;
+                    font-size: $font-size-l;
+                    line-height: $font-size-l;
+                    transition: color $transition-fast, background-color $transition-fast;
+                    transition: border $transition-fast;
+
+                    &:hover {
+                        border: 5px solid $clr-primary-heaven;
+                    }
+                }
+
+                .first-btn {
+                    padding: 25px 54px;
+                    background: $clr-primary-green;
+                    border-radius: 40px;
+                    color: $clr-primary-black;
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: $font-size-l;
+                    line-height: $font-size-l;
+                    transition: color $transition-fast;
+
+                    &:hover {
+                        background: $clr-primary-heaven;
+                    }
+                }
+            }
+
+            .hero-title {
+                max-width: 621px;
+                font-family: $family-title;
+                font-weight: 400;
+                font-size: $font-size-xl;
+                line-height: 84px;
+                color: $clr-primary-white;
+            }
+        }
+    }
+}
+
+@media (max-width:1250px) and (min-width:700px) {
+    .hero {
+        height: 550px;
+        width: 100%;
+        max-width: 1920px;
+        background-image: none;
+        background-color: $clr-primary-black;
+        background-size: 55.5% 100%;
+        z-index: 1;
+        background-position: right;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+        .hero_container {
+            display: flex;
+            justify-content: center;
+
+            .hero_text {
+                max-width: 621px;
+                margin-top: 90px;
+                margin-left: 0px;
+
+                .hero_buttons {
+                    margin-top: 56px;
+
+                    .second-btn {
+                        margin-left: 32px;
+                        padding: 25px 54px;
+                        border-radius: 40px;
+                        background: $clr-primary-black;
+                        color: $clr-primary-white;
+                        text-align: center;
+                        font-weight: 400;
+                        border: 5px solid $clr-primary-active;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        transition: color $transition-fast, background-color $transition-fast;
+                        transition: border $transition-fast;
+
+                        &:hover {
+                            border: 5px solid $clr-primary-heaven;
+                        }
+                    }
+
+                    .first-btn {
+                        padding: 25px 54px;
+                        background: $clr-primary-green;
+                        border-radius: 40px;
+                        color: $clr-primary-black;
+                        text-align: center;
+                        font-weight: 400;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        transition: color $transition-fast;
+
+                        &:hover {
+                            background: $clr-primary-heaven;
+                        }
+                    }
+                }
+
+                .hero-title {
+                    max-width: 621px;
+                    font-family: $family-title;
+                    font-weight: 400;
+                    font-size: $font-size-xl;
+                    line-height: 84px;
+                    color: $clr-primary-white;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:700px) and (min-width:525px) {
+    .hero {
+        height: 550px;
+        width: 100%;
+        max-width: 1920px;
+        background-image: none;
+        background-color: $clr-primary-black;
+        background-size: 55.5% 100%;
+        z-index: 1;
+        background-position: right;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+        .hero_container {
+            @include flex-row-center;
+
+            .hero_text {
+                max-width: 621px;
+                margin-top: 75px;
+                margin-left: 0px;
+
+                .hero_buttons {
+                    width: 100%;
+                    max-width: 296px;
+                    @include flex-column;
+                    margin-top: 56px;
+
+                    .second-btn {
+                        width: 100%;
+                        max-width: 296px;
+                        margin-left: 0px;
+                        margin-top: 16px;
+                        padding: 25px 54px;
+                        border-radius: 40px;
+                        background: $clr-primary-black;
+                        color: $clr-primary-white;
+                        text-align: center;
+                        font-weight: 400;
+                        border: 5px solid $clr-primary-active;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        transition: color $transition-fast, background-color $transition-fast;
+                        transition: border $transition-fast;
+
+                        &:hover {
+                            border: 5px solid $clr-primary-heaven;
+                        }
+                    }
+
+                    .first-btn {
+                        width: 100%;
+                        max-width: 296px;
+                        padding: 25px 54px;
+                        background: $clr-primary-green;
+                        border-radius: 40px;
+                        color: $clr-primary-black;
+                        text-align: center;
+                        font-weight: 400;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        transition: color $transition-fast;
+
+                        &:hover {
+                            background: $clr-primary-heaven;
+                        }
+                    }
+                }
+
+                .hero-title {
+                    width: 100%;
+                    max-width: 621px;
+                    font-family: $family-title;
+                    font-weight: 400;
+                    font-size: $font-size-xx;
+                    line-height: $font-size-xx;
+                    color: $clr-primary-white;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:525px) and (min-width:320px) {
+    .hero {
+        height: 550px;
+        width: 100%;
+        max-width: 1920px;
+        background-image: none;
+        background-color: $clr-primary-black;
+        background-size: 55.5% 100%;
+        z-index: 1;
+        background-position: right;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+        .hero_container {
+            @include flex-row-center;
+
+            .hero_text {
+                max-width: 621px;
+                margin-top: 75px;
+                margin-left: 0px;
+
+                .hero_buttons {
+                    width: 100%;
+                    max-width: 296px;
+                    @include flex-column;
+                    margin-top: 56px;
+
+                    .second-btn {
+                        width: 100%;
+                        max-width: 296px;
+                        margin-left: 0px;
+                        margin-top: 16px;
+                        padding: 25px 54px;
+                        border-radius: 40px;
+                        background: $clr-primary-black;
+                        color: $clr-primary-white;
+                        text-align: center;
+                        font-weight: 400;
+                        border: 5px solid $clr-primary-active;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        transition: color $transition-fast, background-color $transition-fast;
+                        transition: border $transition-fast;
+
+                        &:hover {
+                            border: 5px solid $clr-primary-heaven;
+                        }
+                    }
+
+                    .first-btn {
+                        width: 100%;
+                        max-width: 296px;
+                        padding: 25px 54px;
+                        background: $clr-primary-green;
+                        border-radius: 40px;
+                        color: $clr-primary-black;
+                        text-align: center;
+                        font-weight: 400;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        transition: color $transition-fast;
+
+                        &:hover {
+                            background: $clr-primary-heaven;
+                        }
+                    }
+                }
+
+                .hero-title {
+                    width: 100%;
+                    max-width: 621px;
+                    font-family: $family-title;
+                    font-weight: 400;
+                    font-size: $font-size-lll;
+                    line-height: $font-size-x;
+                    color: $clr-primary-white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .hero {
+        height: 550px;
+        width: 100%;
+        max-width: 1920px;
+        background-image: none;
+        background-color: $clr-primary-black;
+        background-size: 55.5% 100%;
+        z-index: 1;
+        background-position: right;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+        .hero_container {
+            @include flex-row-center;
+
+            .hero_text {
+                max-width: 296px;
+                margin-top: 75px;
+                margin-left: 0px;
+
+                .hero_buttons {
+                    width: 100%;
+                    max-width: 296px;
+                    @include flex-column;
+                    margin-top: 56px;
+
+                    .second-btn {
+                        width: 100%;
+                        max-width: 296px;
+                        margin-left: 0px;
+                        margin-top: 16px;
+                        padding: 25px 54px;
+                        border-radius: 40px;
+                        background: $clr-primary-black;
+                        color: $clr-primary-white;
+                        text-align: center;
+                        font-weight: 400;
+                        border: 5px solid $clr-primary-active;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        transition: color $transition-fast, background-color $transition-fast;
+                        transition: border $transition-fast;
+
+                        &:hover {
+                            border: 5px solid $clr-primary-heaven;
+                        }
+                    }
+
+                    .first-btn {
+                        width: 100%;
+                        max-width: 296px;
+                        padding: 25px 54px;
+                        background: $clr-primary-green;
+                        border-radius: 40px;
+                        color: $clr-primary-black;
+                        text-align: center;
+                        font-weight: 400;
+                        font-size: $font-size-l;
+                        line-height: $font-size-l;
+                        transition: color $transition-fast;
+
+                        &:hover {
+                            background: $clr-primary-heaven;
+                        }
+                    }
+                }
+
+                .hero-title {
+                    width: 100%;
+                    max-width: 296px;
+                    font-family: $family-title;
+                    font-weight: 400;
+                    font-size: $font-size-lll;
+                    line-height: $font-size-x;
+                    color: $clr-primary-white;
+                }
+            }
+        }
+    }
+}
